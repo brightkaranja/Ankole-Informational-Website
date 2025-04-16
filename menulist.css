@@ -1,0 +1,74 @@
+/* KITISURU menu */
+.kitisuru_img{
+    background-image: url(images/kitisuruimg.png);
+    background-color: aliceblue;
+    height: 25cm;
+    width: 24cm;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    position: relative;
+}
+.kitisurutext{
+    font-size: 30px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+.kitisuru_logo{
+    margin-top: -54cm;
+    position: absolute;
+    margin-left: 8.5cm;
+    /* position: fixed; */
+}
+#kitisuru-logo{
+    width: 6cm;
+}
+
+.kitisuru_menu{
+    display: flex;
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+.breakfast_list{
+    display: flex;
+    gap: 15cm;
+    /* margin-left: 1cm; */
+    font-size: 21px;
+}
+#coffee_tea{
+    color: brown;
+}
+.food{
+    display: flex;
+    gap: 9cm;
+}
+#menu-pic{
+    width: 2.1cm;
+}
+.salad_list{
+    display: flex;
+    gap: 0.8cm;
+}
+.salads{
+    margin-top: -0.9cm;
+    /* padding: 1cm; */
+}
+.amount{
+    padding-right: 0.3cm;
+
+}
+/* .nav{
+    word-spacing: 1cm;
+} */
+h3{
+    color: brown;
+}
+.sandwiches{
+    display: flex;
+    gap: 2cm;
+}

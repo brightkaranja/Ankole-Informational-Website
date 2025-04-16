@@ -1,0 +1,41 @@
+/* Contacts */
+#background_img{
+    width: 48.2cm;
+    height: 24.4cm;
+}
+.contact_details{
+    display: flex;
+    gap: 2cm;
+    margin-left: 10cm;
+    margin-top: -20cm;
+    color: aliceblue;
+}
+.kitisu_contact{
+    border: solid 4px white;
+    width: 10cm;
+    height: 12cm;
+    padding-left: 1cm;
+    font-size: 18px;
+    font-weight: 700;
+    /* background-color: black; */
+    /* margin-left: 1cm; */
+    /* text-align: center; */
+}
+.kilimani_contact{
+    border: solid 4px white;
+    width: 10cm;
+    height: 15cm;
+    padding-left: 1cm;
+    font-size: 18px;
+    font-weight: 700;
+}
+#contact_logo{
+    width: 4cm;
+    height: 4cm;
+    padding-left: 20cm;
+    margin-top: -39cm;
+    /* margin-bottom: 7cm; */
+}
+.contact_logo{
+    margin-top: -16cm;
+}

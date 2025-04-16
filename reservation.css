@@ -1,0 +1,72 @@
+/* Reservations */
+.reservation{
+    display: flex;
+    width: 100%;
+}
+#reserveimg{
+    width: 24cm;
+     
+}
+.reservation_form{
+    background-color: black;
+    width: 24cm;
+    height: 23cm;
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 1cm;
+    padding-top: 2cm;
+    /* overflow: auto; */
+    /* float: right; */
+    /* margin-left: 10cm; */
+    /* text-align: left; */
+}
+#inputs{
+    width: 22cm;
+    height: 1cm;
+    color: white;
+    background-color:black;
+}
+#submit_button{
+    width: 18cm;
+    height: 1.5cm;
+    border-radius: 18px;
+    margin-left: 2cm;
+}
+.reserve_background_img{
+    position: fixed;
+    background-image: url(images/reservationimg.png);
+    background-color: aliceblue;
+    height: 25cm;
+    width: 24cm;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+}
+.reservation_message{
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* margin-top: -23cm; */
+    /* margin-left: 10cm; */
+}
+#logo{
+    width: 5cm;
+    margin-left: 9.8cm;
+}
+#karibu_text{
+    color: rgb(229, 239, 248);
+    font-size: 40px;
+    margin-top: 4cm;
+    margin-left: 10.5cm;
+}
+#reserve_text{
+    color: red;
+    font-size: 50px;
+    margin-left: 9cm;
+}

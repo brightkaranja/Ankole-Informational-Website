@@ -1,0 +1,90 @@
+/* Home */
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.navigation{
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 1cm;
+    text-decoration: none;
+    width: 27cm;
+    word-spacing: 1cm;
+    font-size: 25px;
+
+    position: fixed;
+    margin-top: 18cm;
+    margin-left: 9cm;
+
+}
+#home{
+    color: white;
+    text-decoration: none;
+}
+#menu{
+    color: white;
+    text-decoration: none;
+}
+#review{
+    color: white;
+    text-decoration: none;
+}
+#event{
+    color: white;
+    text-decoration: none;
+}
+#live{
+    color: white;
+    text-decoration: none;
+}
+#contact{
+    color: white;
+    text-decoration: none;
+}
+#reservation{
+    color: white;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 0.4cm;
+    border-radius: 20px;
+    background-color: grey;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(images/backgoundimg1.png);
+    }
+    20%
+    {
+        background-image: url(images/backgroungimg2.png);
+    }
+    40%
+    {
+        background-image: url(images/backgroungimg3.png);
+    }
+    60%
+    {
+        background-image:url(images/backgroungimg4.png) ;
+    }
+    80%
+    {
+        background-image: url(images/backgroundimg5.png);
+    }
+}
+.background_imgs{
+    background-image: url(images/backgoundimg1.png);
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    animation: change 50s infinite ease;
+    height: 940px;
+    margin-top: -0.45%;
+    margin-bottom: 4%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
