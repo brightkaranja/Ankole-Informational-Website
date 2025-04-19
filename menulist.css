@@ -1,6 +1,6 @@
 /* KITISURU menu */
 body {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .kitisuru_img {
@@ -26,7 +26,7 @@ body {
 }
 
 nav {
-    word-spacing: 4cm;
+    word-spacing: 1.2cm;
     text-align: center;
     padding-top: 1cm;
 
@@ -134,61 +134,284 @@ h3 {
     gap: 9.5cm;
 }
 
-.navigation {
+.navigation{
     border: solid 1px black;
     background-color: black;
     border-radius: 50px;
+    height: 2.5cm;
     color: white;
-    /* padding: 0.8cm; */
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* text-decoration: none; */
-    /* align-items: center; */
-    width: 22cm;
-    word-spacing: 1cm;
-    font-size: 20px;
+    padding: 0.1cm;
+    text-decoration: none;
+    width: 22.5cm;
+    word-spacing: 0.2cm;
+    font-size: 18px;
     position: absolute;
-    margin-top: 19cm;
-    margin-left: 1.2cm;
+    position: fixed;
+    margin-top: 19.8cm;
+    margin-left: 1.3cm;
+    z-index: 1;
 
 }
 
-#home {
-    color: white;
-    text-decoration: none;
-    padding-bottom: 0.5cm;
-}
-
-#menu {
+#home{
     color: white;
     text-decoration: none;
 }
-
-#review {
+#menu{
     color: white;
     text-decoration: none;
 }
-
-#event {
+#review{
     color: white;
     text-decoration: none;
 }
-
-#live {
+#event{
     color: white;
     text-decoration: none;
 }
-
-#contact {
+#live{
     color: white;
     text-decoration: none;
 }
-
-#reservation {
+#contact{
+    color: white;
+    text-decoration: none;
+}
+#reservation{
     color: white;
     text-decoration: none;
     border: solid 1px;
     padding: 0.2cm;
     border-radius: 20px;
     background-color: grey;
+}
+
+
+@media screen and (max-width:480px){
+    body {
+        overflow: block;
+    }
+    
+    .kitisuru_img {
+        background-image: url(images/kitisuruimg.png);
+        background-color: aliceblue;
+        height: 20cm;
+        width: 18cm;
+        background-position: center;
+        background-size: cover;
+        color: aliceblue;
+        position: relative;
+    
+    }
+    
+    .kitisurutext {
+        font-size: 22px;
+        text-align: center;
+        top: 40%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    
+    }
+    
+    nav {
+        word-spacing: 0.1cm;
+        text-align: center;
+        padding-top: 1cm;
+    
+    }
+    
+    nav a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    #kitisuru-logo {
+        width: 6cm;
+    }
+    
+    .kitisuru_menu {
+        display: block;
+        font-size: 20px;
+        background-color: black;
+        /* color: aliceblue; */
+    
+    }
+    
+    .breakfast_list {
+        display: flex;
+        gap: 3.3cm;
+        font-size: 18px;
+    }
+    
+    #coffee_tea {
+        color: brown;
+    }
+    
+    .food {
+        display: flex;
+        gap: 1.0cm;
+    }
+    
+    #menu-pic {
+        width: 1.5cm;
+        height: 1.5cm;
+        margin-top: 1cm;
+        margin-left: 0.2cm;
+    }
+    
+    .salads {
+        margin-top: -0.9cm;
+    
+    }
+    
+    #amt {
+        margin-right: 1cm;
+    }
+    
+    .amount {
+        padding-right: 0.3cm;
+    
+    }
+    
+    .salad {
+        display: flex;
+        gap: 0.8cm;
+    }
+    
+    h3 {
+        color: brown;
+    }
+    
+    .sandwiches {
+        display: flex;
+        gap: 0.6cm;
+    }
+    
+    .fries_meals {
+        display: flex;
+        gap: 4cm;
+    }
+    
+    .kitisuru_menu_list {
+        margin-left: 0cm;
+        height: 940px;
+        width: 97%;
+        position: absolute;
+        overflow: scroll;
+        background-color: black;
+        font-size: 17px;
+    }
+    
+    .fresh_juices {
+        display: flex;
+        gap: 4cm;
+        margin-left: 0.1cm;
+    }
+    
+    .fresh_cocktails {
+        display: flex;
+        gap: 2cm;
+        margin-left: 0.1cm;
+    }
+    
+    .milkshakes {
+        display: flex;
+        gap: 2cm;
+    }
+    
+    .yoghurt {
+        display: flex;
+        gap: 2cm;
+    }
+    
+    .soda {
+        display: flex;
+        gap: 1.6cm;
+    }
+    
+    .navigation{
+        border: solid 1px black;
+        background-color: black;
+        border-radius: 50px;
+        height: 2.5cm;
+        color: white;
+        padding: 0.1cm;
+        text-decoration: none;
+        width: 20cm;
+        word-spacing: 0.1cm;
+        font-size: 18px;
+        /* position: absolute; */
+        /* position: fixed; */
+        margin-top: -19.8cm;
+        margin-left: 1cm;
+        /* z-index: 1; */
+    
+    }
+    
+    #home{
+        color: white;
+        text-decoration: none;
+    }
+    #menu{
+        color: white;
+        text-decoration: none;
+    }
+    #review{
+        color: white;
+        text-decoration: none;
+    }
+    #event{
+        color: white;
+        text-decoration: none;
+    }
+    #live{
+        color: white;
+        text-decoration: none;
+    }
+    #contact{
+        color: white;
+        text-decoration: none;
+    }
+    #reservation{
+        color: white;
+        text-decoration: none;
+        border: solid 1px;
+        padding: 0.2cm;
+        border-radius: 20px;
+        background-color: grey;
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 481px) and(max-width: 600px){
+    body{
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
 }

@@ -124,3 +124,135 @@ body{
     border-radius: 20px;
     background-color: grey;
 }
+
+
+@media screen and (max-width: 480px){
+    body{
+        overflow: hidden;
+    }
+    .reservation{
+        display: block;
+        width: 100%;
+    }
+    #reserveimg{
+        width: 24cm;
+         
+    }
+    .reservation_form{
+        background-color: black;
+        width: 23cm;
+        height: 23cm;
+        color: aliceblue;
+        font-size: 20px;
+        padding-left: 1cm;
+        padding-top: 2cm;
+        
+    }
+    #inputs{
+        width: 8cm;
+        height: 1cm;
+        color: white;
+        background-color:black;
+    }
+    #submit_button{
+        background-color: wheat;
+        padding-left: 3cm;
+        padding-right: 3cm;
+        padding-top: 0.35cm;
+        padding-bottom: 0.35cm;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 18px;
+        margin-left: 0.2cm;
+    }
+    .reserve_background_img{
+        position: fixed;
+        background-image: url(images/reservationimg.png);
+        background-color: aliceblue;
+        height: 20cm;
+        width: 24cm;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        position: relative;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .reservation_message{
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: white;
+    
+    }
+    #logo{
+        width: 4cm;
+        margin-left: -4cm;
+        margin-top: -2cm;
+    }
+    #karibu_text{
+        color: rgb(229, 239, 248);
+        font-size: 40px;
+        margin-top: 2cm;
+        margin-left: -4cm;
+    }
+    #reserve_text{
+        color: red;
+        font-size: 50px;
+        margin-left: -4cm;
+        margin-top: 1cm;
+    }
+    
+    .navigation{
+        border: solid 1px black;
+        background-color: black;
+        border-radius: 50px;
+        color: white;
+        padding: 0.7cm;
+        text-decoration: none;
+        width: 8.66cm;
+        word-spacing: 0.03cm;
+        font-size: 12px;
+        position: fixed;
+        margin-top: 13.8cm;
+        margin-left: 0.1cm;
+    
+    }
+    
+    #home{
+        color: white;
+        text-decoration: none;
+    }
+    #menu{
+        color: white;
+        text-decoration: none;
+    }
+    #review{
+        color: white;
+        text-decoration: none;
+    }
+    #event{
+        color: white;
+        text-decoration: none;
+    }
+    #live{
+        color: white;
+        text-decoration: none;
+    }
+    #contact{
+        color: white;
+        text-decoration: none;
+    }
+    #reservation{
+        color: white;
+        text-decoration: none;
+        border: solid 1px;
+        padding: 0.1cm;
+        border-radius: 20px;
+        background-color: grey;
+    }
+    
+}

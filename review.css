@@ -141,4 +141,149 @@ button:hover{
     background-color: aliceblue;
 }
 
+@media screen and (max-width: 480px){
+    body{
+        font-family: sans-serif;
+        background: black;
+        margin: 0;
+        padding: 0;
+    }
+    .logo img{
+        width: 4cm;
+        margin-left: 2.5cm;
+        margin-top: 1cm;
+    }
+    
+    .reviews_section{
+        max-width: 720px;
+        margin: 50px auto;
+        text-align: center;
+        margin-top: -1cm;
+       
+        /* padding: 40px 20px; */
+       
+       
+    }
+    
+    h1{
+        color: white;
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .navigation {
+        border: solid 1px black;
+        background-color: black;
+        border-radius: 50px;
+        color: white;
+        padding: 0.3cm;
+        text-decoration: none;
+        width: 12cm;
+        word-spacing: 0.02cm;
+        font-size: 14px;
+        /* position: absolute; */
+        /* position: fixed; */
+        margin-top: 14.5cm;
+        margin-left: 0.01cm;
+    
+    }
+    
+    #home {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #menu {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #review {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #event {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #live {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #contact {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #reservation {
+        color: white;
+        text-decoration: none;
+        border: solid 1px;
+        padding: 0.05cm;
+        border-radius: 20px;
+        background-color: grey;
+    }
+    
+    p{
+        color: white;
+    }
+    
+    .carousel{
+        position: relative;
+        /* overflow: hidden; */
+    }
+    
+    .review_slide{
+        display: none;
+        font-size: 18px;
+        color: aliceblue;
+        padding: 20px;
+    }
+    
+    .revies_slide_active{
+        display: block;
+    }
+    
+    .review_slide span{
+        display: block;
+        font-style: italic;
+        
+    }
+    
+    button#prev,
+    button#next{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: black;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    
+    button#prev{
+        left: -0.8cm ;
+        margin-top: -1.2cm;
+    }
+    
+    button#next{
+        right: -0.8cm;
+        margin-top: -1.2cm;
+    }
+    
+    .fa-quote-left{
+        color: aliceblue;
+    }
+    
+    button:hover{
+        background-color: aliceblue;
+    }
+}
 

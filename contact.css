@@ -110,3 +110,147 @@ body {
     border-radius: 20px;
     background-color: grey;
 }
+
+@media screen and (max-width: 480px){
+    body {
+        /* overflow: hidden; */
+    }
+    
+    #background_img {
+        width: 10.7cm;
+        height: 34.4cm;
+        filter: brightness(65%);
+    }
+    
+    .contact_details {
+        display: block;
+        /* gap: 1cm; */
+        margin-left: 1.5cm;
+        margin-top: -34cm;
+        color: white;
+        position: absolute;
+    }
+    
+    .kitisu_contact {
+        border: solid 4px white;
+        width: 6cm;
+        height: 6.3cm;
+        padding-left: 0.8cm;
+        font-size: 14px;
+        font-weight: 700;
+    
+    }
+    
+    .kilimani_contact {
+        border: solid 4px white;
+        width: 6cm;
+        height:8.8cm;
+        padding-left: 0.8cm;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    #contact_logo {
+        width: 2cm;
+        height: 2cm;
+        padding-left: 2cm;
+        margin-top: -22cm;
+    
+    }
+    
+    .contact_logo {
+        margin-top: -16cm;
+    }
+    
+    #ankole_links {
+        color: antiquewhite;
+        text-decoration: none;
+    }
+    
+    .navigation {
+        border: solid 1px black;
+        background-color: black;
+        border-radius: 50px;
+        color: white;
+        padding: 0.2cm;
+        text-decoration: none;
+        width: 9.8cm;
+        word-spacing: 0.05cm;
+        font-size: 14px;
+        position: absolute;
+    
+        position: fixed;
+        margin-top: -18.5cm;
+        margin-left: 0.1cm;
+    
+    }
+    
+    #home {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #menu {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #review {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #event {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #live {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #contact {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #reservation {
+        color: white;
+        text-decoration: none;
+        border: solid 1px;
+        padding: 0.01cm;
+        border-radius: 20px;
+        background-color: grey;
+    }
+}
+
+@media screen and (min-width: 481px) and(max-width: 600px){
+    body{
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+}
