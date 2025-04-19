@@ -87,6 +87,43 @@ h2 {
 
 }
 
+.options{
+    display: flex;
+    list-style: none;
+    gap: 10%;
+    margin-top: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu-bar{
+    position: relative;
+    display: inline-block;
+}
+.openinghhours{
+    position: relative;
+    display: inline-block;
+}
+
+.openinghhours .opening{
+    visibility: hidden;
+    width: 190px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    /* margin-bottom: 50px; */
+    bottom: 100%;
+}
+
+.openinghhours:hover .opening{
+    visibility: visible;
+}
+
 #home {
     color: white;
     text-decoration: none;
