@@ -1,8 +1,13 @@
 /* Events */
-.events{
+body {
+    overflow: hidden;
+}
+
+.events {
     display: flex;
 }
-.accra_img{
+
+.accra_img {
     background-image: url(images/eventimg3.png);
     background-color: aliceblue;
     height: 25cm;
@@ -11,20 +16,23 @@
     background-size: cover;
     color: aliceblue;
     position: relative;
-    
+
 }
-.event_accra_text{
+
+.event_accra_text {
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 800;
-    
+
+
 }
-.decor_img{
+
+.decor_img {
     background-image: url(images/eventimg2.png);
     background-color: aliceblue;
     height: 25cm;
@@ -34,7 +42,8 @@
     color: aliceblue;
     position: relative;
 }
-.event_decor{
+
+.event_decor {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -43,7 +52,8 @@
     font-size: 20px;
     font-weight: 800;
 }
-.addis_img{
+
+.addis_img {
     background-image: url(images/eventimg1.png);
     background-color: aliceblue;
     height: 25cm;
@@ -53,7 +63,8 @@
     color: aliceblue;
     position: relative;
 }
-.event_addis_text{
+
+.event_addis_text {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -62,14 +73,72 @@
     font-size: 20px;
     font-weight: 800;
 }
-.event_logo{
-margin-left: 22cm;
-margin-top: -22cm;
-position: absolute;
+
+.event_logo {
+    margin-left: 22cm;
+    margin-top: -22cm;
+    position: absolute;
 }
-#event-logo{
+
+#event-logo {
     width: 5cm;
 }
-#format_text{
+
+#format_text {
     color: rgb(236, 200, 153);
+}
+
+.navigation {
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 0.8cm;
+    text-decoration: none;
+    width: 23cm;
+    word-spacing: 1cm;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -4.5cm;
+    margin-left: 11cm;
+
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    color: white;
+    text-decoration: none;
+}
+
+#review {
+    color: white;
+    text-decoration: none;
+}
+
+#event {
+    color: white;
+    text-decoration: none;
+}
+
+#live {
+    color: white;
+    text-decoration: none;
+}
+
+#contact {
+    color: white;
+    text-decoration: none;
+}
+
+#reservation {
+    color: white;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 0.2cm;
+    border-radius: 20px;
+    background-color: grey;
 }

@@ -1,8 +1,13 @@
 /* Menu */
-.menu_details{
+body {
+    overflow: hidden;
+}
+
+.menu_details {
     display: flex;
 }
-.menu_background{
+
+.menu_background {
     background-image: url(images/backgroungimg4.png);
     background-color: aliceblue;
     height: 25cm;
@@ -13,9 +18,10 @@
     position: relative;
     font-size: 20px;
     font-weight: 800;
-    
+
 }
-.menu_text{
+
+.menu_text {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -23,13 +29,14 @@
     transform: translate(-50%, -50%);
     color: aliceblue;
 }
-h2{
+
+h2 {
     color: rgb(214, 29, 29);
-    
+
 }
 
-.kilimani_menu{
-    background-image: url(images/backgroundimg5.png);
+.kilimani_menu {
+    background-image: url(images/imag.png);
     background-color: aliceblue;
     height: 25cm;
     width: 24.1cm;
@@ -40,7 +47,8 @@ h2{
     font-size: 20px;
     font-weight: 800;
 }
-.kilimani_text_menu{
+
+.kilimani_text_menu {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -50,13 +58,70 @@ h2{
     font-size: 20px;
     font-weight: 800;
 }
-#menu_logo{
+
+#menu_logo {
     width: 5cm;
     position: absolute;
     margin-top: -22cm;
     margin-left: 21.5cm;
 }
-#menu_link{
+
+#menu_link {
     color: aliceblue;
     text-decoration: none;
+}
+
+.navigation {
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 0.8cm;
+    text-decoration: none;
+    width: 23cm;
+    word-spacing: 1cm;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -4.5cm;
+    margin-left: 11cm;
+
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    color: white;
+    text-decoration: none;
+}
+
+#review {
+    color: white;
+    text-decoration: none;
+}
+
+#event {
+    color: white;
+    text-decoration: none;
+}
+
+#live {
+    color: white;
+    text-decoration: none;
+}
+
+#contact {
+    color: white;
+    text-decoration: none;
+}
+
+#reservation {
+    color: white;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 0.2cm;
+    border-radius: 20px;
+    background-color: grey;
 }

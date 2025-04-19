@@ -1,41 +1,112 @@
 /* Contacts */
-#background_img{
+body {
+    overflow: hidden;
+}
+
+#background_img {
     width: 48.2cm;
     height: 24.4cm;
+    filter: brightness(65%);
 }
-.contact_details{
+
+.contact_details {
     display: flex;
-    gap: 2cm;
+    gap: 3.8cm;
     margin-left: 10cm;
     margin-top: -20cm;
     color: aliceblue;
+    position: absolute;
 }
-.kitisu_contact{
+
+.kitisu_contact {
     border: solid 4px white;
     width: 10cm;
     height: 12cm;
     padding-left: 1cm;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    /* background-color: black; */
-    /* margin-left: 1cm; */
-    /* text-align: center; */
+
 }
-.kilimani_contact{
+
+.kilimani_contact {
     border: solid 4px white;
     width: 10cm;
     height: 15cm;
     padding-left: 1cm;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
-#contact_logo{
+
+#contact_logo {
     width: 4cm;
     height: 4cm;
     padding-left: 20cm;
     margin-top: -39cm;
-    /* margin-bottom: 7cm; */
+
 }
-.contact_logo{
+
+.contact_logo {
     margin-top: -16cm;
+}
+
+#ankole_links {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.navigation {
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 0.7cm;
+    text-decoration: none;
+    width: 22cm;
+    word-spacing: 1cm;
+    font-size: 20px;
+    position: absolute;
+
+    position: fixed;
+    margin-top: -3.5cm;
+    margin-left: 9cm;
+
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    color: white;
+    text-decoration: none;
+}
+
+#review {
+    color: white;
+    text-decoration: none;
+}
+
+#event {
+    color: white;
+    text-decoration: none;
+}
+
+#live {
+    color: white;
+    text-decoration: none;
+}
+
+#contact {
+    color: white;
+    text-decoration: none;
+}
+
+#reservation {
+    color: white;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 0.25cm;
+    border-radius: 20px;
+    background-color: grey;
 }

@@ -1,0 +1,105 @@
+body{
+    /* overflow: hidden; */
+}
+.live{
+    display: flex;
+    background-image: url(images/liveimg.png);
+    background-size: contain;
+    /* background-blend-mode: darken; */
+    height: 25cm;
+    margin-left: -2cm;
+    margin-right: -2%;
+    margin-top: -2%;
+}
+
+#logo{
+    width: 5cm;
+}
+
+.nav_bar{
+    display: flex;
+}
+
+.fadhile{
+    display: flex;
+    
+}
+.fadhile img{
+    width: 8cm;
+    padding: 1cm;
+}
+.them img{
+    width: 8cm;
+}
+.jack img{
+    width: 8cm;
+}
+/* .nav_bar img{
+    width: 8cm;
+    margin-left: 13cm;
+} */
+
+.nav_bar p{
+    color: aliceblue;
+}
+
+.nav_bar h3{
+    color: brown;
+}
+
+.navigation {
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 0.8cm;
+    text-decoration: none;
+    width: 21.5cm;
+    word-spacing: 1cm;
+    font-size: 20px;
+    position: absolute;
+    position: fixed;
+    margin-top: 20cm;
+    margin-left: 3cm;
+    z-index: 1;
+
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    color: white;
+    text-decoration: none;
+}
+
+#review {
+    color: white;
+    text-decoration: none;
+}
+
+#event {
+    color: white;
+    text-decoration: none;
+}
+
+#live {
+    color: white;
+    text-decoration: none;
+}
+
+#contact {
+    color: white;
+    text-decoration: none;
+}
+
+#reservation {
+    color: white;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 0.2cm;
+    border-radius: 20px;
+    background-color: grey;
+}
