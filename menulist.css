@@ -138,19 +138,56 @@ h3 {
     border: solid 1px black;
     background-color: black;
     border-radius: 50px;
-    height: 2.5cm;
+    /* height: 2.5cm; */
     color: white;
     padding: 0.1cm;
     text-decoration: none;
     width: 22.5cm;
-    word-spacing: 0.2cm;
+    word-spacing: 0.1cm;
     font-size: 18px;
     position: absolute;
     position: fixed;
     margin-top: 19.8cm;
-    margin-left: 1.3cm;
+    margin-left: 0.1cm;
     z-index: 1;
 
+}
+
+.options{
+    display: flex;
+    list-style: none;
+    gap: 10%;
+    margin-top: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu-bar{
+    position: relative;
+    display: inline-block;
+}
+.openinghhours{
+    position: relative;
+    display: inline-block;
+}
+
+.openinghhours .opening{
+    visibility: hidden;
+    width: 220px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    /* margin-bottom: 50px; */
+    bottom: 100%;
+}
+
+.openinghhours:hover .opening{
+    visibility: visible;
 }
 
 #home{
